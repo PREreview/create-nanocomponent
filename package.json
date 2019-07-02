@@ -1,0 +1,26 @@
+{
+  "name": "nanocomponent-{{name}}",
+  "version": "0.0.0",
+  "description": "nanocomponent-{{name}}",
+  "main": "index.js",
+  "dependencies": {
+    "document-ready": "^2.0.2",
+    "nanocomponent": "^6.5.2",
+    "nanohtml": "^1.6.3",
+    "observe-resize": "^1.1.3",
+    "on-idle": "^3.1.4",
+    "on-intersect": "^2.0.0",
+    "sheetify": "^7.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PREreview/nanocomponent-{{name}}.git"
+  },
+  "author": "PREreview",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PREreview/nanocomponent-{{name}}/issues"
+  },
+  "homepage": "https://github.com/PREreview/nanocomponent-{{name}}"
+}
