@@ -1,6 +1,10 @@
 var Nanocomponent = require('nanocomponent')
 var html = require('nanohtml')
 
+// lifecycle events can optionally be imported
+// and registered in Component.beforerender()
+// var on = require('./on')
+
 class Component extends Nanocomponent {
   constructor () {
     super()
@@ -39,6 +43,12 @@ class Component extends Nanocomponent {
   // DOM yet.
   beforerender (el) {
     console.log('Component is about to be rendered for the first time')
+
+    // this is where you can register other lifecycle events:
+    // on.resize()
+    // on.ready()
+    // on.intersect()
+    // on.idle()
   }
 
   // Called when the component is mounted on the DOM.
